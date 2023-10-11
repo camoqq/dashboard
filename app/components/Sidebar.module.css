@@ -1,0 +1,19 @@
+.side {
+  width: 100px;
+  height: 100hv;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.border {
+  background-color: rgb(174, 237, 170);
+  padding: 10px;
+  border-radius: 8px;
+}
+.border:hover {
+  background-color: rgb(108, 222, 100);
+}
+.space {
+  margin-top: 2rem;
+}

@@ -1,13 +1,19 @@
-.act {
+.recent {
   background-color: white;
   grid-column: 1rem;
   position: relative;
   margin: 1rem;
   padding: 1rem;
   border-radius: 8px;
+  /* text-overflow: ellipsis; */
   overflow: scroll;
 }
-
+.list {
+  background-color: rgb(243, 243, 243);
+  border-radius: 8px;
+  margin: 8px;
+  padding: 8px;
+}
 .space {
   display: flex;
   justify-content: space-between;
@@ -15,4 +21,8 @@
 .txt {
   font-weight: 600;
   margin: 0 8px 0 8px;
+}
+.list:hover {
+  background-color: rgb(201, 201, 201);
+  cursor: pointer;
 }

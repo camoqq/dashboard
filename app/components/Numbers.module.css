@@ -1,0 +1,37 @@
+.card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 16px;
+}
+.card1 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px;
+  border-radius: 8px;
+}
+.in {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.p {
+  font-size: larger;
+  font-weight: 700;
+  background-color: rgb(145, 144, 204);
+  width: 3.9rem;
+  border-radius: 8px;
+  padding: 4px;
+  margin-top: 8px;
+}
+.b {
+  font-weight: 600;
+}
+@media (max-width: 650px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+}
