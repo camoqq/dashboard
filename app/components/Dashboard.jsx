@@ -9,7 +9,7 @@ const Dashboard = () => {
     <div className={styles.parent}>
       <Sidebar />
       <div className={styles.main}>
-        <h2 className={styles.b}>DASHBOARD</h2>
+        <h2 className={styles.b}>WELCOME TO DASHBOARD</h2>
         <Numbers />
         <Recent />
       </div>
